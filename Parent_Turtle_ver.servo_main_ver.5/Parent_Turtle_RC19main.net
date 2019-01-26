@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Mizuta\Desktop\RC19_Circuit\Parent_Turtle_ver.servo_main_ver.5\Parent_Turtle_RC19main.sch)
-    (date "2019/01/22 17:08:56")
+    (date "2019/01/25 0:07:38")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -467,7 +467,7 @@
       (tstamp 5C29E871))
     (comp (ref L1)
       (value 10uH)
-      (footprint Inductors_NEOSID:Neosid_Inductor_Ms50)
+      (footprint Inductors:Inductor_Taiyo-Yuden_NR-50xx_HandSoldering)
       (libsource (lib device) (part INDUCTOR) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C29EF64))

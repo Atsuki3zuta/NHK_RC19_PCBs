@@ -1904,7 +1904,7 @@ U 1 1 5C29EF64
 P 5250 950
 F 0 "L1" V 5200 950 40  0000 C CNN
 F 1 "10uH" V 5350 950 40  0000 C CNN
-F 2 "Inductors_NEOSID:Neosid_Inductor_Ms50" H 5250 950 60  0001 C CNN
+F 2 "Inductors:Inductor_Taiyo-Yuden_NR-50xx_HandSoldering" H 5250 950 60  0001 C CNN
 F 3 "" H 5250 950 60  0000 C CNN
 	1    5250 950 
 	0    -1   -1   0   
