@@ -487,17 +487,6 @@ $EndComp
 Text Label 3725 1675 2    50   ~ 0
 24v
 $Comp
-L device:DIODE D1
-U 1 1 5C5F96CC
-P 4025 1675
-F 0 "D1" H 4025 1483 40  0000 C CNN
-F 1 "DIODE" H 4025 1559 40  0000 C CNN
-F 2 "Mizz_lib:SOD-123" H 4025 1675 60  0001 C CNN
-F 3 "" H 4025 1675 60  0000 C CNN
-	1    4025 1675
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+BATT #PWR07
 U 1 1 5C5F977D
 P 4225 1675
@@ -763,7 +752,7 @@ F 1 "MOSFET_N_123" H 3050 5325 60  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3320 5050 60  0001 C CNN
 F 3 "" H 3320 5050 60  0000 C CNN
 	1    3225 5050
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L device:JUMPER JP1
@@ -817,12 +806,6 @@ Text Label 7675 4100 0    50   ~ 0
 Coil_Out
 Text Label 7050 3825 0    50   ~ 0
 Fun_Out
-Text Label 7700 2950 0    50   ~ 0
-RelayA_Coil_In
-Text Label 7700 4500 0    50   ~ 0
-RelayA_Coil_In
-Wire Wire Line
-	7700 4500 7675 4500
 $Comp
 L conn:CONN_01X02 P2
 U 1 1 5C636386
@@ -1045,4 +1028,35 @@ Text Label 6250 1525 1    50   ~ 0
 Power_Out
 Text Label 6550 1525 1    50   ~ 0
 Fun_Out
+$Comp
+L power:GNDPWR #PWR0103
+U 1 1 5C67851B
+P 2600 5400
+F 0 "#PWR0103" H 2600 5450 40  0001 C CNN
+F 1 "GNDPWR" H 2595 5468 40  0000 C CNN
+F 2 "" H 2600 5400 60  0000 C CNN
+F 3 "" H 2600 5400 60  0000 C CNN
+	1    2600 5400
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	6450 6100 6425 6225
+Wire Wire Line
+	2600 5400 2600 5375
+Connection ~ 2600 5375
+Text Label 7675 4500 0    50   ~ 0
+Coil
+Text Label 7700 2950 0    50   ~ 0
+Coil_Out
+$Comp
+L device:DIODE D1
+U 1 1 5C70781D
+P 4025 1675
+F 0 "D1" H 4025 1483 40  0000 C CNN
+F 1 "DIODE" H 4025 1559 40  0000 C CNN
+F 2 "Diodes_SMD:SMB_Handsoldering" H 4025 1675 60  0001 C CNN
+F 3 "" H 4025 1675 60  0000 C CNN
+	1    4025 1675
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
