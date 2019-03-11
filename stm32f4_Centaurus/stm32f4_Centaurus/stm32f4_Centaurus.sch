@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -5222,4 +5222,10 @@ F 3 "" H 2925 3200 60  0000 C CNN
 	1    2925 3200
 	-1   0    0    1   
 $EndComp
+$Sheet
+S 17250 7250 5450 2025
+U 5C7DEB05
+F0 "CAN" 50
+F1 "CAN.sch" 50
+$EndSheet
 $EndSCHEMATC

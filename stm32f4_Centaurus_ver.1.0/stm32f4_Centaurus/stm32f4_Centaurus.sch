@@ -1322,9 +1322,9 @@ UART5_RX
 Text Label 13650 9950 0    50   ~ 0
 UART5_TX
 Text Label 13650 9850 0    50   ~ 0
-USART4_RX
+UART4_RX
 Text Label 13650 9750 0    50   ~ 0
-USART4_TX
+UART4_TX
 Text Label 13650 7850 0    50   ~ 0
 USART3_RX
 Text Label 13650 7750 0    50   ~ 0
@@ -4598,9 +4598,9 @@ USART6_TX
 Text Label 3150 15375 2    50   ~ 0
 USART6_RX
 Text Label 4200 14600 2    50   ~ 0
-USART4_TX
+UART4_TX
 Text Label 4200 14700 2    50   ~ 0
-USART4_RX
+UART4_RX
 Text Label 3150 14600 2    50   ~ 0
 UART5_TX
 $Sheet
