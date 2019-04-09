@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -522,7 +522,7 @@ Wire Wire Line
 Wire Wire Line
 	6425 2175 6425 2200
 $Comp
-L myDevice:MAX3051 U5
+L stm32f4_Centaurus-rescue:MAX3051-myDevice U5
 U 1 1 5C55F62D
 P 18200 7825
 F 0 "U5" H 18225 8212 60  0000 C CNN
@@ -533,7 +533,7 @@ F 3 "" H 18050 7725 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L myDevice:MAX3051 U6
+L stm32f4_Centaurus-rescue:MAX3051-myDevice U6
 U 1 1 5C55F6F9
 P 18200 8775
 F 0 "U6" H 18225 9162 60  0000 C CNN
@@ -917,7 +917,7 @@ F 3 "transistors/mos/*.*" H 3952 2919 60  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:DIODE D12
+L stm32f4_Centaurus-rescue:DIODE-device D12
 U 1 1 5C57D240
 P 3700 2600
 F 0 "D12" H 3700 2792 40  0000 C CNN
@@ -928,7 +928,7 @@ F 3 "" H 3700 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:DIODE D13
+L stm32f4_Centaurus-rescue:DIODE-device D13
 U 1 1 5C57D2CD
 P 3875 3425
 F 0 "D13" V 3913 3347 40  0000 R CNN
@@ -2095,7 +2095,7 @@ Wire Wire Line
 	6450 3150 6450 3125
 Connection ~ 6450 3150
 $Comp
-L device:DIODE D14
+L stm32f4_Centaurus-rescue:DIODE-device D14
 U 1 1 5C69879B
 P 6100 2425
 F 0 "D14" H 6100 2617 40  0000 C CNN
@@ -2127,7 +2127,7 @@ F 3 "" H 6300 2425 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:DIODE D15
+L stm32f4_Centaurus-rescue:DIODE-device D15
 U 1 1 5C6CB8CA
 P 6675 2825
 F 0 "D15" H 6675 3017 40  0000 C CNN
@@ -2228,7 +2228,7 @@ F 3 "transistors/mos/*.*" H 8052 2769 60  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:DIODE D17
+L stm32f4_Centaurus-rescue:DIODE-device D17
 U 1 1 5C76574D
 P 7975 3275
 F 0 "D17" V 8013 3197 40  0000 R CNN
@@ -2272,7 +2272,7 @@ CAN_BUS_5V
 Text Label 7575 2475 2    50   ~ 0
 5V
 $Comp
-L device:DIODE D16
+L stm32f4_Centaurus-rescue:DIODE-device D16
 U 1 1 5C7974B6
 P 7775 2475
 F 0 "D16" H 7775 2667 40  0000 C CNN
@@ -2676,7 +2676,7 @@ Wire Wire Line
 	4175 15075 4200 15075
 Connection ~ 4175 15075
 $Comp
-L Miz:AQM1602_BL U7
+L stm32f4_Centaurus-rescue:AQM1602_BL-Miz U7
 U 1 1 5C850363
 P 21700 5100
 F 0 "U7" H 21978 5096 50  0000 L CNN
@@ -2687,7 +2687,7 @@ F 3 "" H 21500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:NPN Q4
+L stm32f4_Centaurus-rescue:NPN-device Q4
 U 1 1 5C850AC4
 P 21150 5900
 F 0 "Q4" H 21341 5999 50  0000 L CNN
@@ -3023,7 +3023,7 @@ Wire Wire Line
 Wire Wire Line
 	18200 5600 18200 5625
 $Comp
-L myDevice:OSTBABS4C2B U8
+L stm32f4_Centaurus-rescue:OSTBABS4C2B-myDevice U8
 U 1 1 5C9A05DA
 P 18725 4775
 F 0 "U8" H 18725 5122 60  0000 C CNN
@@ -3389,7 +3389,7 @@ F 3 "" H 21675 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:NPN Q5
+L stm32f4_Centaurus-rescue:NPN-device Q5
 U 1 1 5D035423
 P 20825 3700
 F 0 "Q5" H 21016 3799 50  0000 L CNN
@@ -3444,7 +3444,7 @@ F 3 "" H 20925 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:DIODE D20
+L stm32f4_Centaurus-rescue:DIODE-device D20
 U 1 1 5D0368B7
 P 21125 3300
 F 0 "D20" H 21125 3492 40  0000 C CNN
@@ -3818,7 +3818,7 @@ SWDIO
 Text Label 2175 5225 2    50   ~ 0
 NRST
 $Comp
-L myDevice:LOGO U11
+L stm32f4_Centaurus-rescue:LOGO-myDevice U11
 U 1 1 5DCAD440
 P 22100 1200
 F 0 "U11" H 22378 1253 60  0000 L CNN
@@ -3829,7 +3829,7 @@ F 3 "" H 22100 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L myDevice:LOGO U10
+L stm32f4_Centaurus-rescue:LOGO-myDevice U10
 U 1 1 5DCADB10
 P 21250 1200
 F 0 "U10" H 21528 1253 60  0000 L CNN
@@ -3840,7 +3840,7 @@ F 3 "" H 21250 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L myDevice:LOGO U9
+L stm32f4_Centaurus-rescue:LOGO-myDevice U9
 U 1 1 5DCAEEAA
 P 20400 1200
 F 0 "U9" H 20678 1253 60  0000 L CNN
@@ -4745,7 +4745,7 @@ Wire Wire Line
 	15900 3450 15875 3450
 Connection ~ 15900 3450
 $Comp
-L device:DIODE D26
+L stm32f4_Centaurus-rescue:DIODE-device D26
 U 1 1 5E6CB6C3
 P 15725 3650
 F 0 "D26" H 15725 3842 40  0000 C CNN
@@ -4756,7 +4756,7 @@ F 3 "" H 15725 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:DIODE D27
+L stm32f4_Centaurus-rescue:DIODE-device D27
 U 1 1 5E6CC486
 P 17125 3425
 F 0 "D27" V 17163 3347 40  0000 R CNN
@@ -4767,7 +4767,7 @@ F 3 "" H 17125 3425 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:DIODE D28
+L stm32f4_Centaurus-rescue:DIODE-device D28
 U 1 1 5E6CC877
 P 17125 3825
 F 0 "D28" V 17163 3747 40  0000 R CNN
@@ -4877,7 +4877,7 @@ Wire Wire Line
 	3850 13350 3850 13325
 Connection ~ 3850 13350
 $Comp
-L myDevice:LOGO U13
+L stm32f4_Centaurus-rescue:LOGO-myDevice U13
 U 1 1 5C5FBB63
 P 19550 1200
 F 0 "U13" H 19828 1253 60  0000 L CNN
@@ -4888,7 +4888,7 @@ F 3 "" H 19550 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:DIODE D29
+L stm32f4_Centaurus-rescue:DIODE-device D29
 U 1 1 5C73222C
 P 6125 3025
 F 0 "D29" H 6125 2833 40  0000 C CNN
@@ -4910,7 +4910,7 @@ Connection ~ 20625 7625
 Text GLabel 21675 8175 0    50   Input ~ 0
 CAN0_BUS_Vdd
 $Comp
-L device:DIODE D38
+L stm32f4_Centaurus-rescue:DIODE-device D38
 U 1 1 5C7DBE40
 P 21875 8175
 F 0 "D38" H 21875 8367 40  0000 C CNN
@@ -4967,7 +4967,7 @@ CAN1_BUS_Vdd
 Text GLabel 21675 9125 0    50   Input ~ 0
 CAN1_BUS_Vdd
 $Comp
-L device:DIODE D39
+L stm32f4_Centaurus-rescue:DIODE-device D39
 U 1 1 5C8C2D01
 P 21875 9125
 F 0 "D39" H 21875 9317 40  0000 C CNN
@@ -5023,7 +5023,7 @@ CAN_BUS_12V
 Text Label 1800 2425 2    50   ~ 0
 12V_TO_5V
 $Comp
-L device:DIODE D30
+L stm32f4_Centaurus-rescue:DIODE-device D30
 U 1 1 5CA9A6E5
 P 9475 2475
 F 0 "D30" H 9475 2667 40  0000 C CNN
@@ -5049,7 +5049,7 @@ F 3 "" H 15675 4550 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:DIODE D32
+L stm32f4_Centaurus-rescue:DIODE-device D32
 U 1 1 5CA9F856
 P 15675 4100
 F 0 "D32" V 15713 4022 40  0000 R CNN
@@ -5101,7 +5101,7 @@ F 3 "transistors/mos/*.*" H 9752 2769 60  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:DIODE D31
+L stm32f4_Centaurus-rescue:DIODE-device D31
 U 1 1 5CAD144A
 P 9675 3275
 F 0 "D31" H 9675 3467 40  0000 C CNN
@@ -5169,7 +5169,7 @@ CAN1_BUS_12V
 Text Label 20250 8175 2    50   ~ 0
 CAN0_BUS_12V
 $Comp
-L device:DIODE D34
+L stm32f4_Centaurus-rescue:DIODE-device D34
 U 1 1 5CBEF4C3
 P 16000 7800
 F 0 "D34" H 16000 7992 40  0000 C CNN
@@ -5182,7 +5182,7 @@ $EndComp
 Text Label 15800 7800 2    50   ~ 0
 CAN1_BUS_12V
 $Comp
-L device:DIODE D33
+L stm32f4_Centaurus-rescue:DIODE-device D33
 U 1 1 5CBEFD4B
 P 16000 7500
 F 0 "D33" H 16000 7692 40  0000 C CNN
