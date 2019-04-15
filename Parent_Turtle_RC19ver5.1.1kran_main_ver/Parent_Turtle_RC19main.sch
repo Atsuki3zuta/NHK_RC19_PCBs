@@ -1833,8 +1833,6 @@ F 3 "" H 5575 1625 60  0000 C CNN
 	1    5575 1625
 	1    0    0    -1  
 $EndComp
-Text Notes 5700 700  0    60   ~ 0
-http://akizukidenshi.com/catalog/g/gP-06984/
 Text Label 8925 4925 0    60   ~ 0
 C6
 Text Label 2975 4350 2    60   ~ 0
@@ -1943,8 +1941,6 @@ Wire Wire Line
 	5575 950  5600 950 
 Wire Wire Line
 	4925 650  4925 950 
-Text Notes 8050 700  0    60   ~ 0
-<- currern is very low.
 Text Label 7750 3800 2    60   ~ 0
 A2
 $Comp
@@ -2052,7 +2048,7 @@ $EndComp
 Text Label 4125 4450 2    60   ~ 0
 E9
 Text Label 4125 4550 2    60   ~ 0
-E10
+E11
 $Comp
 L conn:CONN_02X04 P5
 U 1 1 5CB4A83C
