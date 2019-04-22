@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Mizuta\Desktop\RC19_Circuit\Electrocity_Manager\Electrocity_Manager\Electrocity_Manager.sch)
-    (date "2019/04/16 16:15:11")
+    (date "2019/04/18 22:25:06")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
