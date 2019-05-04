@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Mizuta\Desktop\RC19_Circuit\Electrocity_Manager_Pikachu\Electrocity_Manager\Electrocity_Manager.sch)
-    (date "2019/05/03 14:03:52")
+    (date "2019/05/04 12:09:53")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -222,7 +222,7 @@
       (tstamp 5C916759))
     (comp (ref D10)
       (value SBR_DIODE)
-      (footprint TO_SOT_Packages_SMD:TO-277A)
+      (footprint Package_TO_SOT_SMD:TO-277B)
       (libsource (lib Miz) (part SBR_DIODE) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C918163))
