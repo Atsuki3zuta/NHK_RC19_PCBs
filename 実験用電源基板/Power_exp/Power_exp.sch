@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L V23074A2002A403:V23074A2002A403 U3
+L Power_exp-rescue:V23074A2002A403-V23074A2002A403 U3
 U 1 1 5C55B9A1
 P 7150 3150
 F 0 "U3" H 7578 3196 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "" H 7150 3150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L V23074A2002A403:V23074A2002A403 U2
+L Power_exp-rescue:V23074A2002A403-V23074A2002A403 U2
 U 1 1 5C55B9E7
 P 7125 4300
 F 0 "U2" H 7553 4346 50  0000 L CNN
@@ -515,7 +515,7 @@ P 4000 4950
 F 0 "IC1" H 4000 5408 40  0000 C CNN
 F 1 "TLP291" H 4000 5332 40  0000 C CNN
 F 2 "Housings_DIP:DIP-4_W7.62mm" H 4000 5265 29  0000 C CNN
-F 3 "http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291_en_datasheet_120426.pdf" H 4000 5182 60  0000 C CNN
+F 3 "http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291_en_datasheet_120426.pdf" H 4000 5182 60  0001 C CNN
 	1    4000 4950
 	-1   0    0    -1  
 $EndComp
@@ -526,7 +526,7 @@ P 4000 6125
 F 0 "IC2" H 4000 6583 40  0000 C CNN
 F 1 "TLP291" H 4000 6507 40  0000 C CNN
 F 2 "Housings_DIP:DIP-4_W7.62mm" H 4000 6440 29  0000 C CNN
-F 3 "http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291_en_datasheet_120426.pdf" H 4000 6357 60  0000 C CNN
+F 3 "http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP291_en_datasheet_120426.pdf" H 4000 6357 60  0001 C CNN
 	1    4000 6125
 	1    0    0    -1  
 $EndComp
@@ -744,7 +744,7 @@ F 3 "" H 3525 5200 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Hori_lib:MOSFET_N_123 Q1
+L Power_exp-rescue:MOSFET_N_123-Hori_lib Q1
 U 1 1 5C62A97B
 P 3225 5050
 F 0 "Q1" H 3413 4997 60  0000 L CNN
@@ -1049,7 +1049,7 @@ Coil
 Text Label 7700 2950 0    50   ~ 0
 Coil_Out
 $Comp
-L device:DIODE D1
+L Power_exp-rescue:DIODE-device D1
 U 1 1 5C70781D
 P 4025 1675
 F 0 "D1" H 4025 1483 40  0000 C CNN
