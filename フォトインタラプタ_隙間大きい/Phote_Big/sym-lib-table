@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Phote_Big-rescue)(type Legacy)(uri ${KIPRJMOD}/Phote_Big-rescue.lib)(options "")(descr ""))
+)

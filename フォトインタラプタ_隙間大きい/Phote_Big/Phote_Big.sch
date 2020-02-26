@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Phote_Big-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -26,7 +26,7 @@ F 3 "" H 3400 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L Phote_Big-rescue:GND-power #PWR0101
 U 1 1 5CADC2F2
 P 3200 1800
 F 0 "#PWR0101" H 3200 1800 30  0001 C CNN
@@ -52,14 +52,14 @@ L device:R R1
 U 1 1 5CADFAB1
 P 2700 2650
 F 0 "R1" V 2508 2650 40  0000 C CNN
-F 1 "120" V 2584 2650 40  0000 C CNN
+F 1 "240" V 2584 2650 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2630 2650 30  0001 C CNN
 F 3 "" H 2700 2650 30  0000 C CNN
 	1    2700 2650
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0103
+L Phote_Big-rescue:GND-power #PWR0103
 U 1 1 5CADFB5E
 P 2850 3050
 F 0 "#PWR0103" H 2850 3050 30  0001 C CNN
@@ -110,7 +110,7 @@ Connection ~ 3900 2650
 Wire Wire Line
 	3900 2650 3850 2650
 $Comp
-L power:GND #PWR0105
+L Phote_Big-rescue:GND-power #PWR0105
 U 1 1 5CAE088A
 P 3900 2950
 F 0 "#PWR0105" H 3900 2950 30  0001 C CNN

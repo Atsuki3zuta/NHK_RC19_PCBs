@@ -1,75 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:adm3054
-LIBS:analog_switches
-LIBS:arduino
-LIBS:atmel
-LIBS:audio
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:Hori_lib
-LIBS:intel
-LIBS:interface
-LIBS:leds
-LIBS:linear
-LIBS:logo
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip1
-LIBS:microcontrollers
-LIBS:motorola
-LIBS:msp430
-LIBS:myDevice
-LIBS:myPic
-LIBS:myRelay
-LIBS:nxp_armmcu
-LIBS:opto
-LIBS:philips
-LIBS:pic24fjxxgb
-LIBS:power
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:sensors
-LIBS:siliconi
-LIBS:special
-LIBS:stm8
-LIBS:stm32
-LIBS:STM32F103_48
-LIBS:supertex
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:user
-LIBS:valves
-LIBS:video
-LIBS:volumes
-LIBS:xilinx
-LIBS:Miz
+EESchema Schematic File Version 4
 LIBS:Parent_Turtle_Servo-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -84,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_02X15 P1
+L Parent_Turtle_Servo-rescue:CONN_02X15 P1
 U 1 1 5B3F2757
 P 5400 3850
 F 0 "P1" H 5400 4650 50  0000 C CNN
@@ -95,7 +26,7 @@ F 3 "" H 5400 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X15 P2
+L Parent_Turtle_Servo-rescue:CONN_02X15 P2
 U 1 1 5B3F276D
 P 6825 3850
 F 0 "P2" H 6825 4650 50  0000 C CNN
@@ -106,7 +37,7 @@ F 3 "" H 6825 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR24
+L Parent_Turtle_Servo-rescue:+3.3V #PWR24
 U 1 1 5B3F27DB
 P 5150 3150
 F 0 "#PWR24" H 5150 3110 30  0001 C CNN
@@ -117,7 +48,7 @@ F 3 "" H 5150 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR35
+L power:+5V #PWR35
 U 1 1 5B3F2877
 P 7075 3150
 F 0 "#PWR35" H 7075 3240 20  0001 C CNN
@@ -128,7 +59,7 @@ F 3 "" H 7075 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR32
+L Parent_Turtle_Servo-rescue:GND #PWR32
 U 1 1 5B3F2891
 P 6575 3150
 F 0 "#PWR32" H 6575 3150 30  0001 C CNN
@@ -139,7 +70,7 @@ F 3 "" H 6575 3150 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR25
+L Parent_Turtle_Servo-rescue:GND #PWR25
 U 1 1 5B3F28A9
 P 5650 3150
 F 0 "#PWR25" H 5650 3150 30  0001 C CNN
@@ -262,7 +193,7 @@ D8
 Text Label 6575 4550 2    60   ~ 0
 B15
 $Comp
-L CONN_01X02 P12
+L Parent_Turtle_Servo-rescue:CONN_01X02 P12
 U 1 1 5B3F2F86
 P 6150 1650
 F 0 "P12" H 6150 1800 50  0000 C CNN
@@ -273,7 +204,7 @@ F 3 "" H 6150 1650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR29
+L Parent_Turtle_Servo-rescue:GND #PWR29
 U 1 1 5B3F302D
 P 6100 1850
 F 0 "#PWR29" H 6100 1850 30  0001 C CNN
@@ -284,7 +215,7 @@ F 3 "" H 6100 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR30
+L power:+5V #PWR30
 U 1 1 5B3F3047
 P 6200 1850
 F 0 "#PWR30" H 6200 1940 20  0001 C CNN
@@ -295,7 +226,7 @@ F 3 "" H 6200 1850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR36
+L power:+5V #PWR36
 U 1 1 5B3F3152
 P 7400 1250
 F 0 "#PWR36" H 7400 1340 20  0001 C CNN
@@ -306,7 +237,7 @@ F 3 "" H 7400 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Device:R R5
 U 1 1 5B3F31D8
 P 7250 1250
 F 0 "R5" V 7330 1250 40  0000 C CNN
@@ -317,7 +248,7 @@ F 3 "" H 7250 1250 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D1
+L Parent_Turtle_Servo-rescue:LED D1
 U 1 1 5B3F32F5
 P 6900 1250
 F 0 "D1" H 6900 1350 50  0000 C CNN
@@ -328,7 +259,7 @@ F 3 "" H 6900 1250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR33
+L Parent_Turtle_Servo-rescue:GND #PWR33
 U 1 1 5B3F3423
 P 6650 1850
 F 0 "#PWR33" H 6650 1850 30  0001 C CNN
@@ -339,7 +270,7 @@ F 3 "" H 6650 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Device:R R6
 U 1 1 5B3F34C9
 P 7250 1550
 F 0 "R6" V 7330 1550 40  0000 C CNN
@@ -350,7 +281,7 @@ F 3 "" H 7250 1550 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR37
+L Parent_Turtle_Servo-rescue:+3.3V #PWR37
 U 1 1 5B3F35B7
 P 7400 1550
 F 0 "#PWR37" H 7400 1510 30  0001 C CNN
@@ -361,7 +292,7 @@ F 3 "" H 7400 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L Parent_Turtle_Servo-rescue:LED D2
 U 1 1 5B3F366B
 P 6900 1550
 F 0 "D2" H 6900 1650 50  0000 C CNN
@@ -372,7 +303,7 @@ F 3 "" H 6900 1550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X06 P10
+L Parent_Turtle_Servo-rescue:CONN_01X06 P10
 U 1 1 5B3F53D9
 P 6150 2675
 F 0 "P10" H 6150 3025 50  0000 C CNN
@@ -383,7 +314,7 @@ F 3 "" H 6150 2675 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR26
+L Parent_Turtle_Servo-rescue:GND #PWR26
 U 1 1 5B3F583B
 P 5900 2875
 F 0 "#PWR26" H 5900 2875 30  0001 C CNN
@@ -401,7 +332,7 @@ DIO
 NoConn ~ 6300 2875
 NoConn ~ 6400 2875
 $Comp
-L MAX3051 U1
+L Parent_Turtle_Servo-rescue:MAX3051 U1
 U 1 1 5BC45CC1
 P 5550 5575
 F 0 "U1" H 5600 5825 60  0000 C CNN
@@ -412,7 +343,7 @@ F 3 "" H 5400 5475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P3
+L Parent_Turtle_Servo-rescue:CONN_01X04 P3
 U 1 1 5BC45D78
 P 7050 5700
 F 0 "P3" H 7050 5950 50  0000 C CNN
@@ -423,7 +354,7 @@ F 3 "" H 7050 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P4
+L Parent_Turtle_Servo-rescue:CONN_01X04 P4
 U 1 1 5BC45E2F
 P 7725 5700
 F 0 "P4" H 7725 5950 50  0000 C CNN
@@ -434,7 +365,7 @@ F 3 "" H 7725 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR34
+L Parent_Turtle_Servo-rescue:GND #PWR34
 U 1 1 5BC45FBD
 P 6825 5525
 F 0 "#PWR34" H 6825 5525 30  0001 C CNN
@@ -445,7 +376,7 @@ F 3 "" H 6825 5525 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR39
+L Parent_Turtle_Servo-rescue:GND #PWR39
 U 1 1 5BC46188
 P 7525 5550
 F 0 "#PWR39" H 7525 5550 30  0001 C CNN
@@ -464,7 +395,7 @@ CAN_L
 Text Label 7525 5750 2    60   ~ 0
 CAN_H
 $Comp
-L +12V #PWR40
+L power:+12V #PWR40
 U 1 1 5BC46309
 P 7525 5650
 F 0 "#PWR40" H 7525 5600 20  0001 C CNN
@@ -475,7 +406,7 @@ F 3 "" H 7525 5650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +12V #PWR31
+L power:+12V #PWR31
 U 1 1 5BC46345
 P 6400 5550
 F 0 "#PWR31" H 6400 5500 20  0001 C CNN
@@ -486,7 +417,7 @@ F 3 "" H 6400 5550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR23
+L Parent_Turtle_Servo-rescue:GND #PWR23
 U 1 1 5BC4653F
 P 5125 5550
 F 0 "#PWR23" H 5125 5550 30  0001 C CNN
@@ -497,7 +428,7 @@ F 3 "" H 5125 5550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C1
+L Parent_Turtle_Servo-rescue:C C1
 U 1 1 5BC46712
 P 4900 5575
 F 0 "C1" H 4900 5675 40  0000 L CNN
@@ -508,7 +439,7 @@ F 3 "" H 4900 5575 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +3.3V #PWR21
+L Parent_Turtle_Servo-rescue:+3.3V #PWR21
 U 1 1 5BC4680C
 P 4700 5575
 F 0 "#PWR21" H 4700 5535 30  0001 C CNN
@@ -519,7 +450,7 @@ F 3 "" H 4700 5575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR27
+L Parent_Turtle_Servo-rescue:GND #PWR27
 U 1 1 5BC46BAA
 P 6000 5175
 F 0 "#PWR27" H 6000 5175 30  0001 C CNN
@@ -534,7 +465,7 @@ CAN_H
 Text Label 6000 5675 0    60   ~ 0
 CAN_L
 $Comp
-L CONN_01X04 P7
+L Parent_Turtle_Servo-rescue:CONN_01X04 P7
 U 1 1 5BC47FCF
 P 3200 4225
 F 0 "P7" H 3200 4475 50  0000 C CNN
@@ -545,7 +476,7 @@ F 3 "" H 3200 4225 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR13
+L Parent_Turtle_Servo-rescue:GND #PWR13
 U 1 1 5BC4835C
 P 2975 4050
 F 0 "#PWR13" H 2975 4050 30  0001 C CNN
@@ -556,7 +487,7 @@ F 3 "" H 2975 4050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C3
+L Parent_Turtle_Servo-rescue:C C3
 U 1 1 5BC4861B
 P 2750 4075
 F 0 "C3" H 2750 4175 40  0000 L CNN
@@ -567,7 +498,7 @@ F 3 "" H 2750 4075 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR10
+L power:+5V #PWR10
 U 1 1 5BC488A6
 P 2550 4075
 F 0 "#PWR10" H 2550 4165 20  0001 C CNN
@@ -578,7 +509,7 @@ F 3 "" H 2550 4075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P8
+L Parent_Turtle_Servo-rescue:CONN_01X04 P8
 U 1 1 5BC49721
 P 5275 2275
 F 0 "P8" H 5275 2525 50  0000 C CNN
@@ -589,7 +520,7 @@ F 3 "" H 5275 2275 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L Parent_Turtle_Servo-rescue:GND #PWR22
 U 1 1 5BC499C7
 P 5075 2125
 F 0 "#PWR22" H 5075 2125 30  0001 C CNN
@@ -605,7 +536,7 @@ CLK
 Text Label 5075 2425 2    60   ~ 0
 DIO
 $Comp
-L C C4
+L Parent_Turtle_Servo-rescue:C C4
 U 1 1 5BC4AB32
 P 6600 5550
 F 0 "C4" H 6600 5650 40  0000 L CNN
@@ -616,7 +547,7 @@ F 3 "" H 6600 5550 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW2
+L Parent_Turtle_Servo-rescue:SW_PUSH SW2
 U 1 1 5BC4BAA2
 P 8500 4650
 F 0 "SW2" H 8650 4760 50  0000 C CNN
@@ -627,7 +558,7 @@ F 3 "" H 8500 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Device:R R7
 U 1 1 5BC4BB03
 P 9000 4650
 F 0 "R7" V 9080 4650 40  0000 C CNN
@@ -638,7 +569,7 @@ F 3 "" H 9000 4650 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D3
+L Parent_Turtle_Servo-rescue:LED D3
 U 1 1 5BC4BBF7
 P 8425 4925
 F 0 "D3" H 8425 5025 50  0000 C CNN
@@ -649,7 +580,7 @@ F 3 "" H 8425 4925 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D4
+L Parent_Turtle_Servo-rescue:LED D4
 U 1 1 5BC4BC59
 P 8425 5200
 F 0 "D4" H 8425 5300 50  0000 C CNN
@@ -660,7 +591,7 @@ F 3 "" H 8425 5200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R3
+L Device:R R3
 U 1 1 5BC4BCE5
 P 8775 4925
 F 0 "R3" V 8855 4925 40  0000 C CNN
@@ -671,7 +602,7 @@ F 3 "" H 8775 4925 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L Device:R R4
 U 1 1 5BC4BD4D
 P 8775 5200
 F 0 "R4" V 8855 5200 40  0000 C CNN
@@ -682,7 +613,7 @@ F 3 "" H 8775 5200 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR41
+L Parent_Turtle_Servo-rescue:GND #PWR41
 U 1 1 5BC4BE3D
 P 8200 6325
 F 0 "#PWR41" H 8200 6325 30  0001 C CNN
@@ -725,7 +656,7 @@ E13
 Text Label 3775 5200 2    60   ~ 0
 E14
 $Comp
-L SPEAKER SP1
+L Parent_Turtle_Servo-rescue:SPEAKER SP1
 U 1 1 5BC49DBC
 P 9350 3500
 F 0 "SP1" H 9250 3750 70  0000 C CNN
@@ -736,7 +667,7 @@ F 3 "" H 9350 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L Device:R R9
 U 1 1 5BC49F90
 P 8500 3600
 F 0 "R9" V 8580 3600 40  0000 C CNN
@@ -747,7 +678,7 @@ F 3 "" H 8500 3600 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R8
+L Device:R R8
 U 1 1 5BC4A0A5
 P 7900 3800
 F 0 "R8" V 7980 3800 40  0000 C CNN
@@ -760,7 +691,7 @@ $EndComp
 Text Label 7750 3800 2    60   ~ 0
 B9
 $Comp
-L GND #PWR42
+L Parent_Turtle_Servo-rescue:GND #PWR42
 U 1 1 5BC4A745
 P 8350 4000
 F 0 "#PWR42" H 8350 4000 30  0001 C CNN
@@ -771,7 +702,7 @@ F 3 "" H 8350 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR43
+L Parent_Turtle_Servo-rescue:+3.3V #PWR43
 U 1 1 5BC4AAE5
 P 9050 3400
 F 0 "#PWR43" H 9050 3360 30  0001 C CNN
@@ -782,7 +713,7 @@ F 3 "" H 9050 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D5
+L Parent_Turtle_Servo-rescue:LED D5
 U 1 1 5BC4F064
 P 8425 5475
 F 0 "D5" H 8425 5575 50  0000 C CNN
@@ -793,7 +724,7 @@ F 3 "" H 8425 5475 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D6
+L Parent_Turtle_Servo-rescue:LED D6
 U 1 1 5BC4F06A
 P 8425 5750
 F 0 "D6" H 8425 5850 50  0000 C CNN
@@ -804,7 +735,7 @@ F 3 "" H 8425 5750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R10
+L Device:R R10
 U 1 1 5BC4F070
 P 8775 5475
 F 0 "R10" V 8855 5475 40  0000 C CNN
@@ -815,7 +746,7 @@ F 3 "" H 8775 5475 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R11
+L Device:R R11
 U 1 1 5BC4F076
 P 8775 5750
 F 0 "R11" V 8855 5750 40  0000 C CNN
@@ -826,7 +757,7 @@ F 3 "" H 8775 5750 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D7
+L Parent_Turtle_Servo-rescue:LED D7
 U 1 1 5BC4F1A8
 P 8425 6025
 F 0 "D7" H 8425 6125 50  0000 C CNN
@@ -837,7 +768,7 @@ F 3 "" H 8425 6025 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D8
+L Parent_Turtle_Servo-rescue:LED D8
 U 1 1 5BC4F1AE
 P 8425 6300
 F 0 "D8" H 8425 6400 50  0000 C CNN
@@ -848,7 +779,7 @@ F 3 "" H 8425 6300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R12
+L Device:R R12
 U 1 1 5BC4F1B4
 P 8775 6025
 F 0 "R12" V 8855 6025 40  0000 C CNN
@@ -859,7 +790,7 @@ F 3 "" H 8775 6025 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R13
+L Device:R R13
 U 1 1 5BC4F1BA
 P 8775 6300
 F 0 "R13" V 8855 6300 40  0000 C CNN
@@ -882,7 +813,7 @@ D8
 Text Label 8925 6300 0    60   ~ 0
 B15
 $Comp
-L LED D9
+L Parent_Turtle_Servo-rescue:LED D9
 U 1 1 5BC50C32
 P 6900 1825
 F 0 "D9" H 6900 1925 50  0000 C CNN
@@ -893,7 +824,7 @@ F 3 "" H 6900 1825 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R14
+L Device:R R14
 U 1 1 5BC50C9E
 P 7250 1825
 F 0 "R14" V 7330 1825 40  0000 C CNN
@@ -904,7 +835,7 @@ F 3 "" H 7250 1825 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +12V #PWR38
+L power:+12V #PWR38
 U 1 1 5BC50D62
 P 7400 1825
 F 0 "#PWR38" H 7400 1775 20  0001 C CNN
@@ -915,7 +846,7 @@ F 3 "" H 7400 1825 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NPN Q1
+L Parent_Turtle_Servo-rescue:NPN Q1
 U 1 1 5BC5613F
 P 8250 3800
 F 0 "Q1" H 8250 3650 50  0000 R CNN
@@ -926,7 +857,7 @@ F 3 "" H 8250 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P9
+L Parent_Turtle_Servo-rescue:CONN_01X02 P9
 U 1 1 5BC6ED99
 P 7050 6200
 F 0 "P9" H 7050 6350 50  0000 C CNN
@@ -939,7 +870,7 @@ $EndComp
 Text Label 6850 6150 2    60   ~ 0
 CAN_L
 $Comp
-L R R15
+L Device:R R15
 U 1 1 5BC6F197
 P 6700 6250
 F 0 "R15" V 6780 6250 40  0000 C CNN
@@ -952,7 +883,7 @@ $EndComp
 Text Label 6550 6250 2    60   ~ 0
 CAN_H
 $Comp
-L GND #PWR28
+L Parent_Turtle_Servo-rescue:GND #PWR28
 U 1 1 5BD04D06
 P 6025 5800
 F 0 "#PWR28" H 6025 5800 30  0001 C CNN
@@ -969,7 +900,7 @@ C1
 Text Label 2675 3500 2    60   ~ 0
 C2
 $Comp
-L R R1
+L Device:R R1
 U 1 1 5BD073C8
 P 6000 5325
 F 0 "R1" V 6080 5325 40  0000 C CNN
@@ -980,7 +911,7 @@ F 3 "" H 6000 5325 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X04 P11
+L Parent_Turtle_Servo-rescue:CONN_01X04 P11
 U 1 1 5BD0C52D
 P 2875 3450
 F 0 "P11" H 2875 3700 50  0000 C CNN
@@ -993,7 +924,7 @@ $EndComp
 Text Label 2675 3600 2    60   ~ 0
 C3
 $Comp
-L CONN_02X04 P13
+L Parent_Turtle_Servo-rescue:CONN_02X04 P13
 U 1 1 5BD0CF35
 P 2175 3450
 F 0 "P13" H 2175 3700 50  0000 C CNN
@@ -1004,7 +935,7 @@ F 3 "" H 2175 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L Parent_Turtle_Servo-rescue:GND #PWR4
 U 1 1 5BD0E169
 P 1900 3625
 F 0 "#PWR4" H 1900 3625 30  0001 C CNN
@@ -1015,7 +946,7 @@ F 3 "" H 1900 3625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 1250 6650 1850
+	6650 1250 6650 1550
 Wire Wire Line
 	6650 1550 6700 1550
 Wire Wire Line
@@ -1024,7 +955,7 @@ Connection ~ 6650 1550
 Wire Wire Line
 	5125 5550 5125 5575
 Wire Wire Line
-	5100 5575 5150 5575
+	5100 5575 5125 5575
 Connection ~ 5125 5575
 Wire Wire Line
 	4700 5575 4700 5675
@@ -1033,7 +964,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 5425 5150 5475
 Wire Wire Line
-	2950 4075 3000 4075
+	2950 4075 2975 4075
 Wire Wire Line
 	2975 4075 2975 4050
 Connection ~ 2975 4075
@@ -1046,7 +977,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 5650 6850 5650
 Wire Wire Line
-	6800 5550 6850 5550
+	6800 5550 6825 5550
 Wire Wire Line
 	6825 5550 6825 5525
 Connection ~ 6825 5550
@@ -1059,7 +990,7 @@ Connection ~ 8200 4925
 Wire Wire Line
 	8825 4575 8825 4650
 Wire Wire Line
-	8800 4650 8850 4650
+	8800 4650 8825 4650
 Connection ~ 8825 4650
 Wire Wire Line
 	8200 6300 8225 6300
@@ -1081,7 +1012,7 @@ Wire Wire Line
 Wire Wire Line
 	6025 5775 6000 5775
 Wire Wire Line
-	2450 3275 2450 3600
+	2450 3275 2450 3300
 Wire Wire Line
 	2450 3300 2425 3300
 Wire Wire Line
@@ -1094,7 +1025,7 @@ Wire Wire Line
 	2450 3400 2425 3400
 Connection ~ 2450 3400
 Wire Wire Line
-	1900 3300 1900 3625
+	1900 3300 1900 3400
 Wire Wire Line
 	1900 3600 1925 3600
 Wire Wire Line
@@ -1107,7 +1038,7 @@ Wire Wire Line
 	1925 3300 1900 3300
 Connection ~ 1900 3400
 $Comp
-L +3.3V #PWR8
+L Parent_Turtle_Servo-rescue:+3.3V #PWR8
 U 1 1 5BD0F222
 P 2450 3275
 F 0 "#PWR8" H 2450 3235 30  0001 C CNN
@@ -1118,7 +1049,7 @@ F 3 "" H 2450 3275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P14
+L Parent_Turtle_Servo-rescue:CONN_01X04 P14
 U 1 1 5BDAD87A
 P 4025 3450
 F 0 "P14" H 4025 3700 50  0000 C CNN
@@ -1137,7 +1068,7 @@ D9
 Text Label 3825 3600 2    60   ~ 0
 B14
 $Comp
-L CONN_02X04 P15
+L Parent_Turtle_Servo-rescue:CONN_02X04 P15
 U 1 1 5BDAE8BD
 P 3325 3450
 F 0 "P15" H 3325 3700 50  0000 C CNN
@@ -1148,7 +1079,7 @@ F 3 "" H 3325 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR19
+L power:+5V #PWR19
 U 1 1 5BDAE975
 P 3575 3275
 F 0 "#PWR19" H 3575 3365 20  0001 C CNN
@@ -1159,12 +1090,12 @@ F 3 "" H 3575 3275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3575 3275 3575 3600
+	3575 3275 3575 3300
 Connection ~ 3575 3300
 Connection ~ 3575 3400
 Connection ~ 3575 3500
 $Comp
-L GND #PWR14
+L Parent_Turtle_Servo-rescue:GND #PWR14
 U 1 1 5BDAEE5B
 P 3075 3625
 F 0 "#PWR14" H 3075 3625 30  0001 C CNN
@@ -1175,12 +1106,12 @@ F 3 "" H 3075 3625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3075 3300 3075 3625
+	3075 3300 3075 3400
 Connection ~ 3075 3600
 Connection ~ 3075 3500
 Connection ~ 3075 3400
 $Comp
-L MCP2221 U2
+L Parent_Turtle_Servo-rescue:MCP2221 U2
 U 1 1 5BF975B8
 P 3000 5750
 F 0 "U2" H 3000 6075 60  0000 C CNN
@@ -1191,7 +1122,7 @@ F 3 "" H 3000 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR17
+L Parent_Turtle_Servo-rescue:GND #PWR17
 U 1 1 5BF9850E
 P 3450 5525
 F 0 "#PWR17" H 3450 5525 30  0001 C CNN
@@ -1210,7 +1141,7 @@ NoConn ~ 3450 5900
 NoConn ~ 3450 5975
 NoConn ~ 2550 5975
 $Comp
-L R R18
+L Device:R R18
 U 1 1 5BF99C9C
 P 2400 5750
 F 0 "R18" V 2480 5750 40  0000 C CNN
@@ -1221,7 +1152,7 @@ F 3 "" H 2400 5750 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L USB_OTG P6
+L Parent_Turtle_Servo-rescue:USB_OTG P6
 U 1 1 5BF9AD36
 P 2925 4775
 F 0 "P6" H 3250 4650 50  0000 C CNN
@@ -1236,7 +1167,7 @@ D+
 Text Label 2825 5075 3    60   ~ 0
 D-
 $Comp
-L +5V #PWR11
+L power:+5V #PWR11
 U 1 1 5BF9BFAE
 P 2725 5075
 F 0 "#PWR11" H 2725 5165 20  0001 C CNN
@@ -1247,7 +1178,7 @@ F 3 "" H 2725 5075 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR15
+L Parent_Turtle_Servo-rescue:GND #PWR15
 U 1 1 5BF9C7B1
 P 3125 5075
 F 0 "#PWR15" H 3125 5075 30  0001 C CNN
@@ -1270,7 +1201,7 @@ GP1
 Text Label 2550 6250 0    60   ~ 0
 GP0
 $Comp
-L R R16
+L Device:R R16
 U 1 1 5BFA1144
 P 2000 6250
 F 0 "R16" V 2080 6250 40  0000 C CNN
@@ -1281,7 +1212,7 @@ F 3 "" H 2000 6250 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L Device:R R17
 U 1 1 5BFA1383
 P 2000 6525
 F 0 "R17" V 2080 6525 40  0000 C CNN
@@ -1294,7 +1225,7 @@ $EndComp
 Text Label 2550 6525 0    60   ~ 0
 GP1
 $Comp
-L LED D10
+L Parent_Turtle_Servo-rescue:LED D10
 U 1 1 5BFA1C5A
 P 2350 6250
 F 0 "D10" H 2350 6350 50  0000 C CNN
@@ -1305,7 +1236,7 @@ F 3 "" H 2350 6250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D11
+L Parent_Turtle_Servo-rescue:LED D11
 U 1 1 5BFA1DBD
 P 2350 6525
 F 0 "D11" H 2350 6625 50  0000 C CNN
@@ -1316,7 +1247,7 @@ F 3 "" H 2350 6525 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR2
+L Parent_Turtle_Servo-rescue:GND #PWR2
 U 1 1 5BFA2427
 P 1850 6250
 F 0 "#PWR2" H 1850 6250 30  0001 C CNN
@@ -1327,7 +1258,7 @@ F 3 "" H 1850 6250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR3
+L Parent_Turtle_Servo-rescue:GND #PWR3
 U 1 1 5BFA2A33
 P 1850 6525
 F 0 "#PWR3" H 1850 6525 30  0001 C CNN
@@ -1338,7 +1269,7 @@ F 3 "" H 1850 6525 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2
+L Parent_Turtle_Servo-rescue:C C2
 U 1 1 5BFA5138
 P 2300 5525
 F 0 "C2" H 2300 5625 40  0000 L CNN
@@ -1349,10 +1280,10 @@ F 3 "" H 2300 5525 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2500 5525 2550 5525
+	2500 5525 2525 5525
 Connection ~ 2525 5525
 $Comp
-L GND #PWR6
+L Parent_Turtle_Servo-rescue:GND #PWR6
 U 1 1 5BFA6889
 P 2100 5525
 F 0 "#PWR6" H 2100 5525 30  0001 C CNN
@@ -1363,7 +1294,7 @@ F 3 "" H 2100 5525 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X14 P5
+L Parent_Turtle_Servo-rescue:CONN_01X14 P5
 U 1 1 5C184E34
 P 3975 4550
 F 0 "P5" H 3975 5300 50  0000 C CNN
@@ -1374,7 +1305,7 @@ F 3 "" H 3975 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P16
+L Parent_Turtle_Servo-rescue:CONN_01X02 P16
 U 1 1 5C184EEC
 P 4450 3950
 F 0 "P16" H 4450 4100 50  0000 C CNN
@@ -1393,7 +1324,7 @@ B8
 Text Label 4250 4000 2    60   ~ 0
 C9
 $Comp
-L DIODE D12
+L Parent_Turtle_Servo-rescue:DIODE D12
 U 1 1 5C18B18C
 P 8850 3400
 F 0 "D12" H 8850 3500 40  0000 C CNN
@@ -1408,7 +1339,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 3600 9050 3600
 $Comp
-L CONN_01X04 P17
+L Parent_Turtle_Servo-rescue:CONN_01X04 P17
 U 1 1 5C18AEDA
 P 2225 4250
 F 0 "P17" H 2225 4500 50  0000 C CNN
@@ -1419,7 +1350,7 @@ F 3 "" H 2225 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L Parent_Turtle_Servo-rescue:GND #PWR5
 U 1 1 5C18B61F
 P 2000 4075
 F 0 "#PWR5" H 2000 4075 30  0001 C CNN
@@ -1430,7 +1361,7 @@ F 3 "" H 2000 4075 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C5
+L Parent_Turtle_Servo-rescue:C C5
 U 1 1 5C18C269
 P 1775 4100
 F 0 "C5" H 1775 4200 40  0000 L CNN
@@ -1441,7 +1372,7 @@ F 3 "" H 1775 4100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR1
+L power:+5V #PWR1
 U 1 1 5C18D097
 P 1575 4100
 F 0 "#PWR1" H 1575 4190 20  0001 C CNN
@@ -1460,14 +1391,14 @@ Wire Wire Line
 Wire Wire Line
 	1575 4200 2025 4200
 Wire Wire Line
-	1975 4100 2025 4100
+	1975 4100 2000 4100
 Wire Wire Line
 	2000 4100 2000 4075
 Connection ~ 2000 4100
 Wire Wire Line
-	8200 4375 8200 6325
+	8200 4375 8200 4650
 $Comp
-L +3.3V #PWR18
+L Parent_Turtle_Servo-rescue:+3.3V #PWR18
 U 1 1 5C196942
 P 3450 5750
 F 0 "#PWR18" H 3450 5710 30  0001 C CNN
@@ -1478,7 +1409,7 @@ F 3 "" H 3450 5750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3.3V #PWR9
+L Parent_Turtle_Servo-rescue:+3.3V #PWR9
 U 1 1 5C196D3D
 P 2525 5525
 F 0 "#PWR9" H 2525 5485 30  0001 C CNN
@@ -1489,7 +1420,7 @@ F 3 "" H 2525 5525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR7
+L Parent_Turtle_Servo-rescue:+3.3V #PWR7
 U 1 1 5C197138
 P 2250 5750
 F 0 "#PWR7" H 2250 5710 30  0001 C CNN
@@ -1500,7 +1431,7 @@ F 3 "" H 2250 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR45
+L power:+5V #PWR45
 U 1 1 5C199C2E
 P 9150 4650
 F 0 "#PWR45" H 9150 4740 20  0001 C CNN
@@ -1511,7 +1442,7 @@ F 3 "" H 9150 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW1
+L Parent_Turtle_Servo-rescue:SW_PUSH SW1
 U 1 1 5C1CE5B0
 P 8500 4375
 F 0 "SW1" H 8650 4485 50  0000 C CNN
@@ -1522,7 +1453,7 @@ F 3 "" H 8500 4375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 5C1CE67D
 P 9000 4375
 F 0 "R2" V 9080 4375 40  0000 C CNN
@@ -1533,7 +1464,7 @@ F 3 "" H 9000 4375 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR44
+L power:+5V #PWR44
 U 1 1 5C1CE747
 P 9150 4375
 F 0 "#PWR44" H 9150 4465 20  0001 C CNN
@@ -1545,7 +1476,7 @@ F 3 "" H 9150 4375 60  0000 C CNN
 $EndComp
 Connection ~ 8200 4650
 Wire Wire Line
-	8800 4375 8850 4375
+	8800 4375 8825 4375
 Text Label 8825 4300 0    60   ~ 0
 E12
 Wire Wire Line
@@ -1554,7 +1485,7 @@ Connection ~ 8825 4375
 Text Label 8825 4575 0    60   ~ 0
 E10
 $Comp
-L +12V #PWR12
+L power:+12V #PWR12
 U 1 1 5C1D5085
 P 2875 1900
 F 0 "#PWR12" H 2875 1850 20  0001 C CNN
@@ -1565,7 +1496,7 @@ F 3 "" H 2875 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L Parent_Turtle_Servo-rescue:C C6
 U 1 1 5C1D6CE9
 P 2875 2100
 F 0 "C6" H 2875 2200 40  0000 L CNN
@@ -1576,7 +1507,7 @@ F 3 "" H 2875 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L Parent_Turtle_Servo-rescue:C C7
 U 1 1 5C1D7633
 P 3675 2100
 F 0 "C7" H 3675 2200 40  0000 L CNN
@@ -1587,7 +1518,7 @@ F 3 "" H 3675 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR20
+L power:+5V #PWR20
 U 1 1 5C1D7FB0
 P 3675 1900
 F 0 "#PWR20" H 3675 1990 20  0001 C CNN
@@ -1598,7 +1529,7 @@ F 3 "" H 3675 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR16
+L Parent_Turtle_Servo-rescue:GND #PWR16
 U 1 1 5C1D8DCA
 P 3275 2325
 F 0 "#PWR16" H 3275 2325 30  0001 C CNN
@@ -1609,12 +1540,12 @@ F 3 "" H 3275 2325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3275 2200 3275 2325
+	3275 2200 3275 2300
 Wire Wire Line
-	2875 2300 3675 2300
+	2875 2300 3275 2300
 Connection ~ 3275 2300
 $Comp
-L 78L05 U3
+L Parent_Turtle_Servo-rescue:78L05 U3
 U 1 1 5C1DB128
 P 3275 1950
 F 0 "U3" H 3425 1754 60  0000 C CNN
@@ -1624,4 +1555,64 @@ F 3 "" H 3275 1950 60  0000 C CNN
 	1    3275 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 1550 6650 1825
+Wire Wire Line
+	5125 5575 5150 5575
+Wire Wire Line
+	2975 4075 3000 4075
+Wire Wire Line
+	6825 5550 6850 5550
+Wire Wire Line
+	8200 5200 8200 5475
+Wire Wire Line
+	8200 4925 8200 5200
+Wire Wire Line
+	8825 4650 8850 4650
+Wire Wire Line
+	8200 6300 8200 6325
+Wire Wire Line
+	8200 6025 8200 6300
+Wire Wire Line
+	8200 5750 8200 6025
+Wire Wire Line
+	8200 5475 8200 5750
+Wire Wire Line
+	6650 1825 6650 1850
+Wire Wire Line
+	2450 3300 2450 3400
+Wire Wire Line
+	2450 3500 2450 3600
+Wire Wire Line
+	2450 3400 2450 3500
+Wire Wire Line
+	1900 3600 1900 3625
+Wire Wire Line
+	1900 3500 1900 3600
+Wire Wire Line
+	1900 3400 1900 3500
+Wire Wire Line
+	3575 3300 3575 3400
+Wire Wire Line
+	3575 3400 3575 3500
+Wire Wire Line
+	3575 3500 3575 3600
+Wire Wire Line
+	3075 3600 3075 3625
+Wire Wire Line
+	3075 3500 3075 3600
+Wire Wire Line
+	3075 3400 3075 3500
+Wire Wire Line
+	2525 5525 2550 5525
+Wire Wire Line
+	2000 4100 2025 4100
+Wire Wire Line
+	8200 4650 8200 4925
+Wire Wire Line
+	8825 4375 8850 4375
+Wire Wire Line
+	3275 2300 3275 2325
+Wire Wire Line
+	3275 2300 3675 2300
 $EndSCHEMATC
